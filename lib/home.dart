@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
                   }),
                 );
               },
-              child: const Text("進階: 基本優先度"),
+              child: const Text("升級: 雙等級優先度"),
             ),
             TextButton(
               onPressed: () {
@@ -43,7 +43,7 @@ class HomePage extends StatelessWidget {
                   }),
                 );
               },
-              child: const Text("進階: 多等級優先度"),
+              child: const Text("升級: 多等級優先度"),
             ),
           ],
         ),

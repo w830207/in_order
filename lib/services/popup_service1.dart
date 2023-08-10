@@ -24,7 +24,7 @@ class PopupService1 {
   popup() {
     _push(() {
       BotToast.showSimpleNotification(
-        title: "low",
+        title: "pop",
         onClose: _pop,
       );
     });
